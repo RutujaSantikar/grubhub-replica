@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "copy": "cpx \"./node_modules/{normalize.css,@fortawesome/fontawesome-free/{css,webfonts}}/**/*\" \"public/external\"",
-    "start": "index.html",
+    "start": "live-server --mount=/:public/ --open=index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,3 +18,4 @@
     "normalize.css": "^8.0.1"
   }
 }
+
